@@ -18,3 +18,20 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h1 {
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 16px;
+  color: green;
+}
+
+main canvas {
+  border: 3px solid #ccc;
+  border-radius: 8px;
+}
